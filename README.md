@@ -97,16 +97,6 @@ print(f"Menor elemento: {min_val}, Maior elemento: {max_val}")
 ```
 Menor elemento: 1, Maior elemento: 9
 ```
-
-## Entrega do Projeto
-O projeto deve ser entregue através de um **repositório público no GitHub**, e o link deve ser postado no **CANVAS**.
-
-### **Exemplo de Link:**
-```
-https://github.com/seu-usuario/trabalho_individual_2
-```
-Certifique-se de que o repositório esteja **público ou acessível**, testando-o em uma aba anônima antes da entrega.
-
 ## Licença
 Este projeto está licenciado sob a **Licença MIT**. Sinta-se à vontade para utilizá-lo e modificá-lo conforme necessário.
 
