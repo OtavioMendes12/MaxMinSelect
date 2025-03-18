@@ -1,9 +1,9 @@
 def max_min_select(arr, left, right):
-    # Caso base: Apenas um elemento
+
     if left == right:
         return arr[left], arr[left]
 
-    # Caso base: Dois elementos
+
     if right == left + 1:
         if arr[left] < arr[right]:
             return arr[left], arr[right]
@@ -20,7 +20,7 @@ def max_min_select(arr, left, right):
     # Combina os resultados
     return min(min1, min2), max(max1, max2)
 
-# Teste do algoritmo
+
 if __name__ == "__main__":
     arr = [3, 5, 1, 8, 2, 9, 4, 7, 6]
     min_val, max_val = max_min_select(arr, 0, len(arr) - 1)
